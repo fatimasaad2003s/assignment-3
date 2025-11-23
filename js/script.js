@@ -177,12 +177,15 @@ filterSelect.addEventListener("change", () => {
   else displayProjects(allProjects.filter(p => p.type === filterValue));
 });
 
-let seconds = 0;
 const timerElement = document.getElementById("visit-timer");
 
-setInterval(() => {
-  seconds++;
-  const mins = Math.floor(seconds / 60);
-  const secs = seconds % 60;
-  timerElement.textContent = `Time on site ${mins}:${secs < 10 ? '0' : ''}${secs} minutes`;
-}, 1000);
+if (timerElement) {
+  let seconds = 0;
+  setInterval(() => {
+    seconds++;
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    timerElement.textContent = `Time on site ${mins}:${secs < 10 ? '0' : ''}${secs} minutes`;
+  }, 1000);
+}
+

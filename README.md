@@ -26,6 +26,8 @@ The website is responsive, includes animations, and fetches data dynamically fro
 - **Contact section** with a functional contact form and validation  
 - **Light/Dark mode toggle** with rotating icon and LocalStorage support  
 - **Animations / Transitions** including fade-in sections and hover effects for buttons, images, and project cards  
+- **Testing using Lighthouse** 
+![Lighthouse result](assets/images/test.png)
 
 ---
 
