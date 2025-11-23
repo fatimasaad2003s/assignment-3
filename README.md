@@ -27,7 +27,8 @@ The website is responsive, includes animations, and fetches data dynamically fro
 - **Light/Dark mode toggle** with rotating icon and LocalStorage support  
 - **Animations / Transitions** including fade-in sections and hover effects for buttons, images, and project cards  
 - **Testing using Lighthouse** 
-![Lighthouse result](assets/images/test.png)
+Before >> ![Lighthouse result](assets/images/test.png)
+After >> ![Lighthouse result](assets/images/test2.png)
 
 ---
 
@@ -36,7 +37,8 @@ The website is responsive, includes animations, and fetches data dynamically fro
 - **HTML** structure for all sections and elements  
 - **CSS** styling, responsive layout, themes, and animations  
 - **JavaScript** for interactivity, theme toggle, personalized greeting, fade-in animations, and dynamic GitHub data fetching  
-- **GitHub API** to dynamically load latest repositories  
+- **GitHub API** to dynamically load latest repositories 
+- **Lighthouse** to test the performance  
 
 ---
 
