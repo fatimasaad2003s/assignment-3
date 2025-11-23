@@ -56,6 +56,11 @@ assignment-3/
 
 ---
 
+## Live Demo
+[View the live portfolio](https://fatimasaad2003s.github.io/assignment-3/)
+
+---
+
 ## How To Run 
 
 - Download this repository as a ZIP file  
