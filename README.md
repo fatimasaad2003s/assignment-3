@@ -3,7 +3,8 @@
 ## Overview
 
 This is an updated personal website built for a web development course (Assignment 3).  
-The assignment focuses on integrating dynamic content, interactive features, and enhancing web development skills using HTML, CSS, and JavaScript.  
+The assignment focuses on integrating dynamic content, interactive features, 
+and enhancing web development skills using HTML, CSS, and JavaScript.  
 The website is responsive, includes animations, and fetches data dynamically from GitHub.
 
 ---
@@ -21,7 +22,7 @@ The website is responsive, includes animations, and fetches data dynamically fro
 
 - **Home section** with a welcome message and personalized greeting based on time of day  
 - **Projects section** showcasing academic projects  
-- **GitHub Repositories section** dynamically displaying latest 5 repos from GitHub  
+- **GitHub Repositories section -API Integration-** dynamically displaying latest 5 repos from GitHub  
 - **Contact section** with a functional contact form and validation  
 - **Light/Dark mode toggle** with rotating icon and LocalStorage support  
 - **Animations / Transitions** including fade-in sections and hover effects for buttons, images, and project cards  
