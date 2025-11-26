@@ -305,3 +305,18 @@ body.dark-theme .timer {
   background-color: rgba(255,255,255,0.2);
   color: #ffd700;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+section, header {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
